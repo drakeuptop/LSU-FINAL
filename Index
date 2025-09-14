@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LSU Order Confirmation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/LSU_Tigers_logo.svg" alt="LSU Logo" class="logo" />
+    <h1>Order Confirmation</h1>
+  </header>
+
+  <main class="container">
+    <div class="ticket">
+      <h2>LSU SPORT</h2>
+      <p><strong>Event:</strong> Football vs. Southern Louisiana</p>
+      <p><strong>Date:</strong> Sat, Sep 20, 2025 • 6:45 PM</p>
+      <p><strong>Venue:</strong> Tiger Stadium</p>
+      <p><strong>Seats:</strong> Sec 101 • Row 30 • Seat 1–2</p>
+    </div>
+
+    <button id="emailBtn" class="btn">Send to Email</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
